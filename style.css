@@ -1,0 +1,60 @@
+body {
+    font-family: "Oswald", "Arial" sans-serif;
+    background-image: url(images/body-image.png);    
+}
+
+header {
+    width: 70%;
+    margin: auto;
+    color: #000033;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 18px;
+    background-color: rgba(204,204,255,0.7);
+    border: 4px solid #0066FF;
+    border-radius: 15px;
+}
+
+header>h1 {
+    padding-left: 15%;
+}
+
+div {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-top: 3%;
+    font-size: 22px;
+    color: #000033;
+    background-color: rgba(204, 204, 255, 0.1);
+    border: 4px solid #0066FF;
+    border-radius: 15px;
+    
+    
+}
+
+span {
+    font-style: italic;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+#mail:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.avatar {
+    margin: auto;
+}
